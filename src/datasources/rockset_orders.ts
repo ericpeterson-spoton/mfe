@@ -2,8 +2,9 @@ import rockset from "rockset";
 import { GetRowsAsyncFunction } from "../utils/types";
 import dayjs from "dayjs";
 
-const apiserver = import.meta.env.VITE_REACT_APP_ROCKSET_URL;
-const apikey = import.meta.env.VITE_REACT_APP_ROCKSET_API_KEY;
+const apiserver = "https://api.use1a1.rockset.com";
+const apikey =
+  "gnK5oiKkOTd4fTqyDWYyOgEm9IOZAEtjfBqhU3TvOmmmYajbl62exooAKk5RLB0M";
 
 const rocksetClient = rockset(apikey, apiserver);
 

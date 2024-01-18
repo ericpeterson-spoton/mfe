@@ -108,6 +108,10 @@ body {
   display: grid;
   gap: 1rem;
   grid-template-rows: min-content min-content 1fr;
+  position: absolute;
+  top: 63px;
+  left: 84px;
+  width: calc(100% - 92px);
 }
 
 .report-layout {
@@ -115,6 +119,10 @@ body {
   height: 100%;
   display: grid;
   grid-template-rows: min-content 1fr;
+  position: absolute;
+  top: 63px;
+  left: 84px;
+  width: calc(100% - 92px);
 }
 
 .grid-container {

@@ -1,3 +1,3 @@
 // export const BASE_URL = "/reporting";
 
-export const BASE_URL = "/partnerships";
+export const BASE_URL = "/custom-reports";

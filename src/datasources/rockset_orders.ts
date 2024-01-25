@@ -4,7 +4,7 @@ import dayjs from "dayjs";
 
 const apiserver = "https://api.use1a1.rockset.com";
 const apikey =
-  "gnK5oiKkOTd4fTqyDWYyOgEm9IOZAEtjfBqhU3TvOmmmYajbl62exooAKk5RLB0M";
+  "9uqNQxg26XOqmoFjcS65WFVZLKfWtSwSBO3jQhcTdxoS8Ewetc45xGfDgZjxQAvw";
 
 const rocksetClient = rockset(apikey, apiserver);
 
